@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transformation Gematria Primus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Convertisseur Français ↔ Gematria Primus</h1>
+
+    <!--  Français vers Gematria Primus -->
+    <div>
+      <h2>Français → Gematria Primus</h2>
+      <textarea id="input-text" placeholder="Écris ta phrase ici..."></textarea>
+      <button id="convert-button">Convertir en Runes</button>
+      <div id="output-container">
+        <div id="output-text"></div>
+        <button id="copy-button">Copier dans le presse-papiers</button>
+      </div>
+    </div>
+
+    <!-- Gematria Primus vers Français -->
+    <div>
+      <h2>Convertisseur Gematria Primus → Français</h2>
+      <textarea id="runes-text" placeholder="Colle le texte en runes ici..."></textarea>
+      <button id="reverse-convert-button">Convertir en Français</button>
+      <div id="reverse-output-container">
+        <div id="reverse-output-text"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
