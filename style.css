@@ -1,40 +1,51 @@
-/* Fond et styles de base */
+
 body {
-    background-color: #000;
-    color: #0f0;
-    font-family: "Courier New", monospace;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  textarea {
-    width: 80%;
-    height: 100px;
-    margin: 20px 0;
-    border: 2px solid #0f0;
-    background-color: #000;
-    color: #0f0;
-    padding: 10px;
-    font-size: 16px;
-  }
-  
-  button {
-    background-color: #0f0;
-    color: #000;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #0f0;
-  }
-  
-  #output-text, #reverse-output-text {
-    font-size: 18px;
-    background: rgba(0, 0, 0, 0.8);
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #0f0;
-  }
+  background-color: #000;
+  color: #0f0;
+  font-family: "Courier New", monospace;
+  text-align: center;
+  padding: 20px;
+}
+
+.ascii-art {
+  color: #0f0;
+  font-size: 12px;
+  white-space: pre;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  margin: 20px 0;
+  border: 2px solid #0f0;
+  background-color: #000;
+  color: #0f0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #0f0;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #0f0;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer a {
+  color: #0f0;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
